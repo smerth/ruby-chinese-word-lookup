@@ -17,4 +17,7 @@ APP_ROOT = File.dirname(__FILE__)
 # .unshift method appends to the beginning of this list of paths the path
 # to a new directory we want Ruby to be aware of
 $:.unshift( File.join(APP_ROOT, 'lib') )
-require 'guide'
+require 'dictionary'
+
+dictionary = Dictionary.new('dictionary.txt')
+dictionary.launch!
