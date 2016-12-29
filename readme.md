@@ -3,4 +3,12 @@
 ## Intro
 Chinese Word Lookup is a simple Ruby program run from the command line interface.
 
-You can lookup words,...
+## Install
+Just download and place where ever you want.
+
+## Run
+From inside the folder call the init file
+
+```bash
+ruby init.rb
+```
